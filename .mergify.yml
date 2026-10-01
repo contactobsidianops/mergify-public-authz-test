@@ -1,0 +1,6 @@
+﻿queue_rules:
+  - name: h1-authz-test
+    queue_conditions:
+      - base = h1-never-target-9f7c2
+    merge_conditions:
+      - base = h1-never-target-9f7c2
